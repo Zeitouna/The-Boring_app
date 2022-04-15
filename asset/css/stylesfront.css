@@ -1,0 +1,94 @@
+:root {
+  --backGr: #f7e4cc;
+  --textstyle: "Amatic SC", cursive;
+  --textsize: 1.5em;
+}
+* {
+  font-family: var(--textstyle);
+  font-size: large;
+}
+
+body {
+  background-color: var(--backGr);
+  font-size: var(--textsize);
+}
+
+.container {
+  display: none;
+}
+.nav-wrapper {
+  position: fixed;
+}
+
+.mainPage {
+  display: flex;
+  display: grid;
+  display: block;
+  text-align: center;
+  flex: 1 1 65%;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 130px;
+}
+p {
+  font-size: var(--textsize);
+}
+
+h5 {
+  margin-left: 10px;
+}
+
+#entertainButton {
+  display: inline-block;
+  vertical-align: bottom;
+  align-items: center;
+  width: 150px;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.page-img {
+  width: 150px;
+  height: 150px;
+}
+
+.media {
+  display: flex;
+  flex: 1 1 35%;
+  margin: 20px;
+  font-size: 50px;
+}
+
+.media img {
+  width: 300px;
+  height: 250px;
+}
+
+h5,
+h6 {
+  font-size: 40px;
+}
+
+#Niko {
+  width: auto;
+  height: auto;
+}
+#Nabil {
+  width: auto;
+  height: auto;
+}
+#Olivier {
+  width: auto;
+  height: auto;
+}
+#Zahra {
+  width: 510px;
+  height: auto;
+}
+
+#ContactUs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
